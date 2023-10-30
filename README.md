@@ -96,3 +96,5 @@ On test en démarant les services, si tout fonctionne bien les services s'affich
 ##### 3.1.3. Les DTOs
 - [`WalletDTO.java`](wallet-service/src/main/java/com/example/walletservice/dtos/WalletDTO.java)
 - [`ClientDTO.java`](wallet-service/src/main/java/com/example/walletservice/dtos/ClientDTO.java)
+
+

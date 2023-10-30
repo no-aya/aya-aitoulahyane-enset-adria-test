@@ -23,4 +23,5 @@ public class Wallet {
 
     @ManyToOne
     private Client client;
+
 }

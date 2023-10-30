@@ -1,5 +1,6 @@
 package com.example.walletservice.entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,6 +22,6 @@ public class Client {
     private String name;
     private String email;
 
-    @OneToMany(mappedBy = "client")
+    @OneToMany(mappedBy = "client") @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private List<Wallet> wallet;
 }
