@@ -24,6 +24,7 @@ Notez bien que chaque service fonctionnels doit contenir AU MOINS:
 - Les entités
 - Les repositories
 - Les DTOs (pour le mapping)
+- Services
 
 ### 1. Dependencies
 Pour le discovery service, on lance consul en local sur le port 8500
@@ -92,4 +93,6 @@ On test en démarant les services, si tout fonctionne bien les services s'affich
 - [`WalletRepository.java`](wallet-service/src/main/java/com/example/walletservice/reps/WalletRepository.java)
 - [`ClientRepository.java`](wallet-service/src/main/java/com/example/walletservice/reps/ClientRepository.java)
 
-
+##### 3.1.3. Les DTOs
+- [`WalletDTO.java`](wallet-service/src/main/java/com/example/walletservice/dtos/WalletDTO.java)
+- [`ClientDTO.java`](wallet-service/src/main/java/com/example/walletservice/dtos/ClientDTO.java)
