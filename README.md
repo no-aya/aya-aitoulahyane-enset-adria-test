@@ -1,11 +1,13 @@
 # Évaluation Architectures Micro-services
 
-> Réalisé par : **Aitoulahyane Aya**
+> Réalisé par : **Aitoulahyane Aya** [`Linkedin`](https://www.linkedin.com/in/aya-aitoulahyane/)
 > Date : Lundi 30 Octobre 2021
 > Configuration du projet :
 > - Version : Java 17
 > - Maven : 2.7.17
 >
+
+
 
 ## Notes importantes 
 - Pour des raison de simplicité, nous allons utiliser la base de données H2 pour stocker les données de nos micro-services.
@@ -76,3 +78,18 @@ spring.config.import=optional:configserver:http://localhost:8081
 On test en démarant les services, si tout fonctionne bien les services s'affichent sur la console de consul.
 
 ![img_3.png](img_3.png)
+
+### 3. Les services fonctionnels
+
+#### 3.1. Wallet Service
+
+##### 3.1.1. Les entités
+
+- [`Wallet.java`](wallet-service/src/main/java/com/example/walletservice/entities/Wallet.java)
+- [`Client.java`](wallet-service/src/main/java/com/example/walletservice/entities/Client.java)
+
+##### 3.1.2. Les repositories
+- [`WalletRepository.java`](wallet-service/src/main/java/com/example/walletservice/reps/WalletRepository.java)
+- [`ClientRepository.java`](wallet-service/src/main/java/com/example/walletservice/reps/ClientRepository.java)
+
+
